@@ -3,7 +3,9 @@ import LCDContentCSS from "./LCDContent.module.css";
 const LCDContent=()=>{
     return(
             <div className={LCDContentCSS.TOPLCDDiv}>
-                LCDContent!!
+                <div className={LCDContentCSS.BansenNum}>
+                    5
+                </div>
             </div>
     );
 }
