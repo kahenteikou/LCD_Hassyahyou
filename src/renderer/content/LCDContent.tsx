@@ -1,5 +1,6 @@
 import React from "react";
 import LCDContentCSS from "./LCDContent.module.css";
+import LCD_C2 from "./LCD_C2";
 const LCDContent=()=>{
     return(
             <div className={LCDContentCSS.TOPLCDDiv}>
@@ -7,7 +8,7 @@ const LCDContent=()=>{
                     5
                 </div>
                 <div className={LCDContentCSS.CTBox}>
-                    BOX!
+                    <LCD_C2/>
                 </div>
             </div>
     );
