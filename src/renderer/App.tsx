@@ -3,7 +3,7 @@ import MainPage from './pages/mainpage';
 
 export default function App() {
   return (
-    <Router>
+    <Router>  
       <Routes>
         <Route path="/" element={<MainPage />} />
       </Routes>
