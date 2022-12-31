@@ -1,13 +1,13 @@
-#wrapper{
+.wrapper{
     position: relative;
     width: 100%;
 }
-#wrapper:before{
+.wrapper:before{
     content:"";
     display: block;
     padding-top: 25%;
 }
-#content{
+.content{
     position: absolute;
     top:0;
     left:0;
