@@ -6,6 +6,9 @@ const LCDContent=()=>{
                 <div className={LCDContentCSS.BansenNum}>
                     5
                 </div>
+                <div className={LCDContentCSS.CTBox}>
+                    BOX!
+                </div>
             </div>
     );
 }
