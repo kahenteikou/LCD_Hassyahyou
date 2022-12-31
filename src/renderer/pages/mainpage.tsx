@@ -4,8 +4,8 @@ import MainPageCSS from "./mainpage.module.css";
 
 const MainPage=()=>{
     return(
-            <div id="wrapper">
-                <div id="content">
+            <div className={MainPageCSS.wrapper}>
+                <div className={MainPageCSS.content}>
                     <LCDContent/>
                 </div>
             </div>
